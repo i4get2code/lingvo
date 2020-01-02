@@ -5,7 +5,7 @@ cd $S # necessary
 
 # N signifas nomo / name
 # R signifas repo
-N="klingvo-b"
+N="$(basename $(pwd))"
 R="https://github.com/i4get2code/$N.git"
 
 git clone $R
